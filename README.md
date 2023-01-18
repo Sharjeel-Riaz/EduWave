@@ -10,8 +10,10 @@ Follow the given steps to make the app workable in your system environment:
 - npm install react-native-svg
 - npm install react-native-shadow-2
 - npm install --save react-native-gesture-handler
-- npm install react-native-reanimated (Onwards open the following link: "https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation/" and configure your
-  babel.config.js file and reset npm start cache on following the documentations instructions)
+- npm install react-native-reanimated
+- npm install react-native-reanimated
+- npm install react-native-safe-area-context
+- npm install react-native-screens
 
 If there are any errors after installing all of the above mentioned packages then go through the error and find the module/dependency you might be missing. Google out the right syntax command to "npm install/npm i" it.
 
