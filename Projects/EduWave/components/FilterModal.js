@@ -361,8 +361,8 @@ const FilterModal = ({filterModalSharedValue1, filterModalSharedValue2}) => {
                 {constants.created_within.map((item, index) => {
                   return (
                     <TextButton
-                      key={`CreatedWithin-$(index)`}
-                      label={item.label}
+                      key={`CreatedWithin-${index}`}
+                      label={item?.label}
                       contentContainerStyle={{
                         height: 45,
                         paddingHorizontal: SIZES.radius,
